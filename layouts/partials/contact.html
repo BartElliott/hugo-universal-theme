@@ -6,7 +6,7 @@
             <section>
 
                 {{ .Content }}
-
+<!-- Bartholomew: turn this email form on at some point?
                 {{ if isset .Site.Params "email" }}
 
                 <div class="heading">
@@ -41,15 +41,15 @@
 
                         </div>
                     </div>
-                    <!-- /.row -->
+                    <!-- /.row ->
                 </form>
 
                 {{ end }}
-
+-->
             </section>
 
         </div>
-
+<!--
         <div class="col-md-4">
 
             {{ if isset .Site.Params "address" }}
@@ -64,9 +64,7 @@
             {{ end }}
 
         </div>
-
+-->
     </div>
     <!-- /.row -->
 </div>
-
-{{ partial "map.html" . }}

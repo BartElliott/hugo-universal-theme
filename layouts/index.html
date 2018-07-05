@@ -13,24 +13,15 @@
 
           {{ partial "nav.html" . }}
 
+	  {{ partial "breadcrumbs.html" . }}
+	  
         </header>
 
-        {{ partial "carousel.html" . }}
+        {{ partial "list.html" . }}
 
-        {{ partial "features.html" . }}
-
-        {{ partial "testimonials.html" . }}
-
-        {{ partial "see_more.html" . }}
-
-        {{ partial "recent_posts.html" . }}
-
-        {{ partial "clients.html" . }}
-
-        {{ partial "footer.html" . }}
+	{{ partial "copyright.html" . }}
 
     </div>
-    <!-- /#all -->
 
     {{ partial "scripts.html" . }}
 
